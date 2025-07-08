@@ -118,11 +118,41 @@ nav ul li a:hover{
     letter-spacing: 5px;
     margin-bottom: 20px;
 }
-.hero-part .hero-btn{
+.hero-btn{
     margin-top: 40px;
     font-weight: 700;
     font-size: 1.5em;
     padding: 6px 10px;
     background-color: #3A3089;
     color: white;
+    border-radius: 5px;
+}
+
+
+/* --main part  */
+main{
+    margin-top: 100px;
+    max-width: 100%;
+}
+.main-container{
+    width: 80%;
+    margin: auto;
+    background-color: lightgray;
+}
+
+
+
+.main-first{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.main-first .mf-txt{
+    margin: 6px 0;
+}
+.main-first span{
+    color: tomato;
+}
+.mf-btn{
+    margin-bottom: 20px;
 }
