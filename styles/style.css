@@ -92,3 +92,37 @@ nav ul li a:hover{
     transition: 1s;
     cursor: pointer;
 }
+
+/* ----Hero Part  */
+.hero-container{
+    max-width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('../images/Vectorrr.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+.hero-all{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+.hero-part{
+    color: white;
+}
+.hero-part .hero-title{
+    font-size: 3em;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.hero-part .hero-btn{
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 6px 10px;
+    background-color: #3A3089;
+    color: white;
+}
