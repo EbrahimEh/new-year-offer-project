@@ -13,7 +13,9 @@
     "wdth" 100;
 }
 /* shared styles  */
-
+.sh-title{
+    color: #696670;
+}
 
 
 
@@ -137,7 +139,7 @@ main{
 .main-container{
     width: 80%;
     margin: auto;
-    background-color: lightgray;
+    background-image: linear-gradient(to right, #f6c4ed, #e1dae6);
 }
 
 
@@ -154,5 +156,56 @@ main{
     color: tomato;
 }
 .mf-btn{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
+/* --main-socond */
+.main-second{
+
+    display: flex;
+    margin: 40px 20px;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sc-part1{
+    text-align: end;
+}
+.sc-part1 h2{
+    color: #FF0000;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+}
+.sc-part1 h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+
+}
+.sc-part2 {
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+.sc-part3{
+    text-align: start;
+    
+}
+.sc-part3 h1{
+    color: #FF0000;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.sc-part3 img{
+    
+}
+.main-second hr{
+    margin-top: 20px;
+    height: 4px;
+    margin-top: 10px;
+    background-color: black;
+}
+
+/* ----main-third */
+
+
