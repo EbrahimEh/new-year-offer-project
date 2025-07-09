@@ -328,3 +328,48 @@ main{
     width: 100%;
 }
 /* ----main-sixth-- */
+.main-sixth{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.sixth-all{
+    
+}
+.sixth-all h1{
+    font-size: 2.5em;
+    color: #FF0000;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.sixth-all p{
+    margin-bottom: 30px;
+}
+.sixth-btn{
+    display: flex;
+    gap: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.sixth-btn input{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    border: none;
+    padding: 20px 30px;
+    
+    
+}
+.sixth-btn input[type="email"]{
+    color: red;
+}
+.sixth-btn input[type="button"]{
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    
+}
