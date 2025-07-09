@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(241, 240, 240);
+    background-color: rgb(205, 220, 240);
 }
 .g-font {
   font-family: "Open Sans", sans-serif;
@@ -143,7 +143,7 @@ main{
     margin: auto;
     position: relative;
     overflow: hidden;
-    background-image: linear-gradient(to right, #f6c4ed, #e1dae6);
+    background-image: linear-gradient(to right, #c9b3bd, #77f0e0, #bcc4c7);
 }
 
 
@@ -372,4 +372,59 @@ main{
     color: white;
     font-weight: 700;
     
+}
+
+/* ----Footer */
+footer{
+    background-color: #070211;
+    max-width: 100%;
+}
+.foot-allpart{
+    padding-top: 60px;
+    width: 60%;
+    margin: auto;
+    color: white;
+}
+.foot-allpart h1{
+    font-size: 1.8em;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.f-all1{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.f-all p{
+    font-size: 20px;
+    padding: 5px 0;
+}
+.f-all2{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.foot-allpart hr{
+    background-color: gray;
+    padding: 1px;
+}
+.f-all3{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+.f-all3 p{
+    font-size: 20px;
+}
+.foot-end{
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 50px;
 }
