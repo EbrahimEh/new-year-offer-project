@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: rgb(241, 240, 240);
+}
 .g-font {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -207,5 +209,23 @@ main{
 }
 
 /* ----main-third */
+.main-third{
+   text-align: center;
+}
+.third-discount{
+    width: 80%;
+    margin: 0 auto;
+}
+.third-discount h1{
+    font-size: 3.5em;
+    color: #FF0000;
+    letter-spacing: 4px;
+}
+.third-discount img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* ---main--forth */
 
 
