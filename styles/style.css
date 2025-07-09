@@ -28,10 +28,34 @@ body{
   max-width: 100%;
 
 }
+@media (max-width: 700px){
+    .menu-toggle{
+        display: block;
+    }
+    .nav-part2{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #76767a;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+        display: none;
+        
+    }
+    .nav-part2 ul li{
+        margin: 10px 0;
+    }
+}
 nav{
     background-color: #EAFFFD;
     width: 100%;
     margin: auto;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
     
 }
 .navber{
@@ -73,6 +97,9 @@ nav{
     transition: 1s;
     border: 1px solid #FF579F;
 }
+.menu-toggle{
+    display: none;
+}
 nav ul{
     
 }
@@ -98,6 +125,15 @@ nav ul li a:hover{
 }
 
 /* ----Hero Part  */
+@media (max-width:700px){
+    .hero-part h1{
+        font-size: 30px !important;
+
+    }
+    .hero-image img{
+        width: 200px;        
+    }
+}
 .hero-container{
     max-width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('../images/Vectorrr.png');
