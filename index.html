@@ -27,11 +27,9 @@
                     <h2 class="g-font">EH</h2>
                 </div>
 
-                <div class="menu-toggle" id="menu-toggle">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
-
-                <div class="nav-part2" id="nav-links">
+                
+                <div class="nav-part2" id="navLinks">
+                    <i class="fa-solid fa fa-rectangle-xmark" onclick="hidemenu()"></i>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#card">Blogs</a></li>
@@ -40,6 +38,8 @@
                     </ul>
                     <button>Sign Up</button>
                 </div>
+                <i class="fa-solid faa fa-bars" onclick="showmenu()"></i>
+
             </div>
         </nav>
 
@@ -212,6 +212,19 @@
         </section>
     </footer>
 
+
+    <!-- ---------Navber Responsive Part-- -->
+    <!-- ------Using JavaScript Here---- -->
+     <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showmenu(){
+            navLinks.style.right = "0";
+        }
+        function hidemenu(){
+            navLinks.style.right = "-200px";
+        }
+     </script>
 </body>
 
 </html>

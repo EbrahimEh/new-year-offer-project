@@ -28,24 +28,39 @@ body{
   max-width: 100%;
 
 }
+nav .faa, nav .fa{
+    display: none;
+}
 @media (max-width: 700px){
-    .menu-toggle{
-        display: block;
-    }
     .nav-part2{
+        background-color: tomato;
+        width: 150px;
+        height: 100vh;
         position: absolute;
-        top: 70px;
-        left: 0;
-        width: 100%;
-        background-color: #76767a;
+        z-index: 2;
+        top: 0;
+        right: -200px;
         flex-direction: column;
-        text-align: center;
-        padding: 20px 0;
-        display: none;
+        
+        padding-top: 30px;
         
     }
-    .nav-part2 ul li{
-        margin: 10px 0;
+    ul li a{
+
+    display: block;
+    padding: 5px;
+    font-size: 1.1em;
+    }
+    nav .fa{
+        display: block;
+        padding-right: 66px;
+        font-size: 1.7em;
+        
+    }
+    nav .faa{
+        display: block;
+        font-size: 1.6em;
+        margin-top: 3px;
     }
 }
 nav{
@@ -133,6 +148,8 @@ nav ul li a:hover{
     .hero-image img{
         width: 200px;        
     }
+
+
 }
 .hero-container{
     max-width: 100%;
