@@ -187,6 +187,7 @@ nav ul li a:hover{
 
 
 /* --main part  */
+
 main{
     margin-top: 100px;
     max-width: 100%;
@@ -216,6 +217,27 @@ main{
     margin-bottom: 50px;
 }
 /* --main-socond */
+@media (max-width:700px){
+    .main-second{
+        flex-direction: column;
+        
+    }
+    .main-second .sc-part1{
+        text-align: center;
+    }
+    .sc-part2 img{
+        width: 100%;
+    }
+    .main-second .sc-part3{
+        text-align: center;
+    }
+    .third-discount{
+        font-size: 0.65em;
+    }
+    .third-discount img{
+        width: 100%;
+    }
+}
 .main-second{
 
     display: flex;
@@ -282,6 +304,29 @@ main{
 }
 
 /* ---main--forth */
+@media (max-width:700px){
+    .main-forth{
+        margin-bottom: 80px;
+    }
+    .forth-img{
+        width: 100%;
+    }
+    .forth-all .fi1 img{
+        height: 150px;
+        width: 100%;
+        
+    }
+    .forth-all .fi2 img{
+        width: 350px;
+                       
+        }
+    .forth-all .fi3 img{
+        width: 60%;
+        right: 80%;
+        display: block;
+        margin-bottom: 50px;
+    }
+}
 .main-forth{
     width: 100%;
     text-align: center;
@@ -339,6 +384,17 @@ main{
 
 
 /* ---main-fith */
+@media (max-width:700px){
+    .fifth-cards{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .fifth-all .fifth-card {
+        width: 80%;
+        display: block;
+    }
+}
 .main-fifth{
     width: 100%;
     text-align: center;
